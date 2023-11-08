@@ -10,7 +10,7 @@ content-type: application/json
 
 ### 
 
-POST http://localhost:3000/api/users HTTP/1.1
+POST https://api-mongodb-dev-sedb.2.us-1.fl0.io/api/users HTTP/1.1
 content-type: application/json
 
 { 
@@ -21,12 +21,12 @@ content-type: application/json
 
 ### 
 
-GET http://localhost:3000/api/users HTTP/1.1
+GET https://api-mongodb-dev-sedb.2.us-1.fl0.io/api/users HTTP/1.1
 content-type: application/json
 
 ###
 
-GET http://localhost:3000/api/users/6542da20c20d9ad95c739701 HTTP/1.1
+GET https://api-mongodb-dev-sedb.2.us-1.fl0.io/api/users/654a78e5824a0f6204d35762 HTTP/1.1
 content-type: application/json
 
 ###
@@ -41,7 +41,7 @@ content-type: application/json
 
 ###
 
-DELETE http://localhost:3000/api/users/6544e7ced958fc237ad628ed HTTP/1.1
+DELETE https://api-mongodb-dev-sedb.2.us-1.fl0.io/api/users/654a6bcd318aaacb68ca6fe8 HTTP/1.1
 content-type: application/json
 
 ###
